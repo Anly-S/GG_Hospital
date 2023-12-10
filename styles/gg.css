@@ -82,6 +82,8 @@
  .whygg{
   display: flex;
   background-color: #b6faee;
+  margin-top: 50px;
+  padding-top: 50px;
  }
  .doctimg{
    flex: 1;
@@ -112,3 +114,45 @@
  .facilitiesheading{
    text-align: center;
  }
+ .deptheading{
+  margin-top: 70px;
+ }
+.titlebox{
+  display:flex;
+}
+.leftbox{
+  flex:1;
+  display:flex;
+}
+.i{
+  margin-left: 10px;
+  justify-content: space-around;
+  width: 20px;
+  height: 20px;
+  padding-top: 3px;
+}
+.rightbox{
+  flex:1;
+  display: flex;
+  justify-content:left;
+  justify-content: space-between;
+}
+.i2{
+  flex:1;
+  width: 10px;
+  height: 10px;
+}
+.subscribe{
+  display:flex;
+  margin-top: 50px;
+}
+.subscribedefn{
+  flex:1;
+  text-align: center;
+  padding: 50px;
+  position: absolute;
+}
+.fill_line{
+  flex: 1;
+  position: absolute;
+}
