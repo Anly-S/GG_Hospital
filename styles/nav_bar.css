@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+.bigimg{
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+.left-column {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+ 
+}
+.left-column img{
+  width: 100%;
+}
+.topnav {
+  flex:6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  background-color: white;
+}
+.topnav .list{
+  text-align: space-around;
+  padding-left: 40px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: red;
+}
+.active {
+  color: rgb(230, 20, 20);
+}
+#list:hover{
+  color: red;
+}
