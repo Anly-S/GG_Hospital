@@ -213,3 +213,6 @@
 .rbottom{
   flex: 1;
 }
+.read{
+  color: rgb(20, 184, 129);
+}
