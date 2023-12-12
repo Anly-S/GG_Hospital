@@ -50,12 +50,14 @@ select {
   flex: 1;
   padding: 10px;
   margin-left: 20px;
-  border-radius: 10px;
+  border-radius: 6px;
+  border: 1px solid black;
 }
 input[type="button"] {
-  background-color: green;
+  background-color: #17c1a3;
   color: white;
-  border-radius: 10px;
+  border-radius: 6px;
+  border: 1px solid #17c1a3;
   flex: 1;
 }
 .firstrow {
@@ -81,7 +83,7 @@ input[type="button"] {
 }
 .whygg {
   display: flex;
-  background-color: #b6faee;
+  background-color: #e8f9f6;
   margin-top: 50px;
   padding-top: 50px;
 }
@@ -175,7 +177,7 @@ body {
   top: 615%;
 }
 #subscribe {
-  background-color: rgb(0, 128, 111);
+  background-color: #17c1a3;
   color: white;
   flex: 1;
   border-radius: 0%;
@@ -226,7 +228,7 @@ body {
   flex: 1;
 }
 .read {
-  color: rgb(20, 184, 129);
+  color: #17c1a3;
 }
 .lbottom p {
   font-size: small;
